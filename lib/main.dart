@@ -33,7 +33,7 @@ class _OdooState extends State<Odoo> {
     super.initState();
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse("https://horizons-global.net/"));
+      ..loadRequest(Uri.parse("https://odoo.amcapp.online/web/login"));
   }
 
   @override
